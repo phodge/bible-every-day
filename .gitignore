@@ -1,1 +1,3 @@
 node_modules
+# typescript builds these for us
+www/js/*

@@ -3,5 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Peter Hodge",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/tsc",
+    "devserver": "DEV_SERVER_PORT=4000 DEV_SERVER_ROOT=www node_modules/.bin/dev-server"
+  },
+  "devDependencies": {
+    "dev-server": "^0.2.0",
+    "typescript": "^4.6.2"
+  }
 }

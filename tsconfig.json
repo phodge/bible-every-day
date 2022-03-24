@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "outDir": "www/js",
+        "baseUrl": "."
+    },
+    "include": ["src/*.ts"],
+    "watchOptions": {
+        "watchFile": "useFsEvents",
+        "watchDirectory": "useFsEvents",
+        "fallbackPolling": "dynamicPriority",
+        "synchronousWatchDirectory": true,
+        "excludeDirectories": ["**/node_modules", "www"],
+        "excludeFiles": []
+    }
+}
