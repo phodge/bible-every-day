@@ -5,11 +5,13 @@
   "author": "Peter Hodge",
   "license": "MIT",
   "scripts": {
-    "build": "node_modules/.bin/tsc",
+    "build": "tsc",
     "devserver": "DEV_SERVER_PORT=4000 DEV_SERVER_ROOT=www node_modules/.bin/dev-server"
   },
   "devDependencies": {
     "dev-server": "^0.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "typescript": "^4.6.2"
   }
 }
