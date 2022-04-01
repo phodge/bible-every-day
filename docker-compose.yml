@@ -1,0 +1,10 @@
+version: "3"
+services:
+  themysql:
+    image: bitnami/mysql
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./mysql-data:/bitnami/mysql/data"
+    environment:
+      MYSQL_ROOT_PASSWORD: "coolroot"
